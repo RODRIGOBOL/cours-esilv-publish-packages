@@ -18,7 +18,7 @@ jobs:
 
       - name: Docker meta
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           # REMPLACE 'TON_NOM_UTILISATEUR' CI-DESSOUS
           images: ghcr.io/RODRIGOBOL/publish-packages/game
